@@ -9,8 +9,8 @@
 6 silly lifecycle piouspiper@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle piouspiper@0.0.0~start: piouspiper@0.0.0
 8 verbose lifecycle piouspiper@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle piouspiper@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/trajanson/Desktop/PiousPiperExpress/piouspiper/node_modules/.bin:/usr/local/Cellar/node/6.1.0/bin:/Users/trajanson/.rbenv/shims:/Users/trajanson/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/trajanson/.local/bin:
-10 verbose lifecycle piouspiper@0.0.0~start: CWD: /Users/trajanson/Desktop/PiousPiperExpress/piouspiper
+9 verbose lifecycle piouspiper@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/trajanson/Desktop/PiousPiper/piouspiper/node_modules/.bin:/usr/local/Cellar/node/6.1.0/bin:/Users/trajanson/.rbenv/shims:/Users/trajanson/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Users/trajanson/.local/bin:
+10 verbose lifecycle piouspiper@0.0.0~start: CWD: /Users/trajanson/Desktop/PiousPiper/piouspiper
 11 silly lifecycle piouspiper@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle piouspiper@0.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle piouspiper@0.0.0~start: Failed to exec start script
@@ -25,7 +25,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:850:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid piouspiper@0.0.0
-16 verbose cwd /Users/trajanson/Desktop/PiousPiperExpress/piouspiper
+16 verbose cwd /Users/trajanson/Desktop/PiousPiper/piouspiper
 17 error Darwin 15.4.0
 18 error argv "/usr/local/Cellar/node/6.1.0/bin/node" "/usr/local/bin/npm" "start"
 19 error node v6.1.0
