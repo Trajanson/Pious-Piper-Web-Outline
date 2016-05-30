@@ -4,7 +4,7 @@ var path = require('path');
 
 
 
-router.get('/getPious', function(req, res) {
+router.get('/getPiousSample', function(req, res) {
   var root = __dirname + '/../piousFiles';
   var filename = 'random.txt';
   var options =   {

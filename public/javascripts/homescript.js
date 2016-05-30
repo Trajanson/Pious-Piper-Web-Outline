@@ -11,7 +11,6 @@ $(window).ready(function() {
   });
 
   attachPiousFileAutoLoader();
-
 });
 
 
