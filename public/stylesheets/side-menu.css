@@ -1,5 +1,9 @@
 body {
     color: #777;
+    background: teal;
+    color: #EFEFEF;
+    color: #2C4056;
+    color: white;
 }
 
 .pure-img-responsive {
@@ -55,20 +59,23 @@ The content `<div>` is where all your content goes.
  }
     .header h1 {
         margin: 0.2em 0;
-        font-size: 3em;
+        font-size: 3.5em;
         font-weight: 300;
+        color: white;
     }
      .header h2 {
         font-weight: 300;
         color: #ccc;
         padding: 0;
         margin-top: 0;
+        color: #D4D4D4;
     }
 
 .content-subhead {
     margin: 50px 0 20px 0;
     font-weight: 300;
     color: #888;
+    color: white;
 }
 
 
@@ -89,6 +96,7 @@ appears on the left side of the page.
     background: #191818;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    background-color: #005554;
 }
     /*
     All anchors inside the menu should be styled like this.
@@ -97,6 +105,9 @@ appears on the left side of the page.
         color: #999;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
+        color: #ED644A;
+        color: white;
+        color: #B1CCC4;
     }
 
     /*
@@ -128,7 +139,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #0D9263;
+        /* background: #326D34; */
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -144,6 +155,10 @@ appears on the left side of the page.
         font-size: 110%;
         color: #fff;
         margin: 0;
+        /* color: #2D4457; */
+        /* color: #D2B9FF; */
+        /* color: #CCDAD2; */
+        text-transform: lowercase;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/

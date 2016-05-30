@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('piper', {title: 'Pious Piper'})
+  res.render('home', {title: 'Pious Piper'})
   // res.render('index', { title: 'Express' });
 });
 
