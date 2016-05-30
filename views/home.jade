@@ -6,8 +6,8 @@ block content
   link(rel="stylesheet", href="/stylesheets/uploaderButton.css")
   script(src="javascripts/homescript.js")
 
-  form(id="getPiousForm")
-    input(id="piousFile" type="file" name="piousFile")
-    input(id="submit" type="submit" value="piousUpload")
+  form(id="getPiousForm", style="visibility: hidden")
+    input(id="piousFile", type="file" name="piousFile")
+    input(id="submit", type="submit" value="piousUpload")
 
   include homeBlock.html

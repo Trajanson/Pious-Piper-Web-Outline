@@ -1,3 +1,8 @@
+@font-face {
+    font-family: adobeCaslonProRegular;
+    src: url(/fonts/Adobe Caslon Pro Regular.ttf);
+}
+
 body {
     color: #777;
     background: teal;
@@ -62,6 +67,7 @@ The content `<div>` is where all your content goes.
         font-size: 3.5em;
         font-weight: 300;
         color: white;
+        font-weight: 100;
     }
      .header h2 {
         font-weight: 300;
@@ -159,6 +165,8 @@ appears on the left side of the page.
         /* color: #D2B9FF; */
         /* color: #CCDAD2; */
         text-transform: lowercase;
+        font-family: adobeCaslonProRegular;
+        font-size: 165%;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
